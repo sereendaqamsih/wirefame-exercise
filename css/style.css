@@ -1,7 +1,7 @@
 footer {
     clear: both;
-    background-color: black;
-    margin-top: 30px;
+    background-color:rgb(75, 73, 73);
+    margin: 30px;
     padding: 50px;
   }
 nav ul li a {
@@ -9,7 +9,10 @@ nav ul li a {
     text-decoration: none;
 }  
 nav ul {
-    position: relative;
+    text-align: center;
+    line-height: 50%;
+
+
   }
 header nav {
     color: white;
@@ -17,15 +20,18 @@ header nav {
     padding: 15px;
 }
 
-nav ul li:first-child { 
-background-color: black;
-padding-top: 70px;
-padding-left: 200px;
-text-align:center;
+nav ul li img {
+height: 70px;
+width:200px;
+vertical-align: middle;
+margin-right: 160px;
+
 }
 header nav ul li {
-    display: inline-block;
-    margin-left: 120px;
+display: inline-block;
+margin-left: 20px;
+margin-right: 55px;
+
 }
 main section:first-child {   
 width:75%;
@@ -35,9 +41,12 @@ margin-right: auto;
 margin-top: 30px;
 }
 .img1 {
-    margin-top: 30px;
-    float: left;
-margin-left: 30px;}
+    
+margin-top: 30px;
+float: left;
+margin-left: 30px;
+}
+
 .img1:first-child{
     margin-left: 170px;
     margin-bottom: 30px;
@@ -47,7 +56,7 @@ main section:last-child
     float:left;
     margin-left: 170px;
 }
-h6 {
+h1 {
 
 display: inline;
 float: left;
@@ -60,15 +69,20 @@ p {
 
 display: inline;
 float: left;
-width:43%;
+width:39%;
 text-align: left;
+overflow: scroll;
 margin-left: 500px;
-margin-top: -300px;
+margin-top: -375px;
+margin-bottom: 30px;
 }
-div {
-margin-left: 500px;
-background-color: black;
-color:white;
-padding: 20px;
+
+
+button{
+    color: white;
+    background-color: black;
+    float: left;
+    margin-top:30px;
+    margin-bottom: 3px;
 
 }
