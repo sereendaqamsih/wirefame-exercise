@@ -1,7 +1,7 @@
 footer {
     clear: both;
     background-color:rgb(75, 73, 73);
-    margin: 30px;
+     margin-top: 30px;
     padding: 50px;
   }
 nav ul li a {
@@ -57,7 +57,8 @@ main section:last-child
     margin-left: 170px;
 }
 h1 {
-
+font-size: 20px;
+font-weight: bold;
 display: inline;
 float: left;
 width:43%;
@@ -87,4 +88,11 @@ button{
     padding-bottom: 15px;
     padding-top: 15px;
     text-align: center;
+    border-radius:10px;
+    transition: 0.3s;
+
+}
+button:hover{
+    color:black;
+    background-color: gray;
 }
