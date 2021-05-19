@@ -71,7 +71,7 @@ float: left;
 overflow: scroll;
 display: block;
 width: 40%;
-height: 370px;
+height: 320px;
 margin-left: 500px;
 margin-top: -375px;
 margin-bottom: 30px;
@@ -79,11 +79,15 @@ margin-bottom: 30px;
 }
 
 button{
+
     color: white;
     background-color: black;
     float: left;
-    margin-top:30px;
-    padding-left: 25px;
+
+    margin-left: 500px;
+margin-top: -50px;
+margin-bottom: 30px;
+    padding-left:-300px;
     padding-right: 25px;
     padding-bottom: 15px;
     padding-top: 15px;
